@@ -3,6 +3,7 @@ import CSVText from "./components/text/CSVText";
 import Inputs from "./components/text/Inputs";
 import NumericText from "./components/text/NumericText";
 import ReverseText from "./components/text/ReverseText";
+import SlugText from "./components/text/SlugText";
 
 export default class App extends Component {
   constructor() {
@@ -29,6 +30,7 @@ export default class App extends Component {
         <ReverseText textInput={text}></ReverseText>
         <NumericText textInput={text}></NumericText>
         <CSVText textInput={text}></CSVText>
+        <SlugText textInput={text}></SlugText>
       </div>
     );
   }
