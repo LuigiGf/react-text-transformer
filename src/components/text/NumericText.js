@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class NumericText extends Component {
   numericString = () => {
-    var numeric = this.props.textInput;
+    let numeric = this.props.textInput;
     numeric = numeric
       .toUpperCase()
       .normalize("NFD")

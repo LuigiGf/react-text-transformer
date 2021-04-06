@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class SlugText extends Component {
   slugString = () => {
-    var slug = this.props.textInput;
+    let slug = this.props.textInput;
     slug = slug
       .toLowerCase()
       .normalize("NFD")

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class CSVText extends Component {
   CSVString = () => {
-    var csvString = this.props.textInput;
+    let csvString = this.props.textInput;
     if (csvString === "") {
       return csvString;
     }
